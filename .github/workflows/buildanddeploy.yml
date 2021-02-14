@@ -1,8 +1,11 @@
-# This is a basic workflow to help you get started with Actions
+name: github pages
 
-name: CI
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
 
-on: push
+jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
