@@ -26,7 +26,7 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: KaeptnZurSee/KaeptnZurSee.github.io
           publish_dir: ./public
-          #   keep_files: true
+          keep_files: true
           user_name: KaeptnZurSee
           user_email: striedlful@gmail.com>
           publish_branch: master
